@@ -1,0 +1,174 @@
+@media screen and (min-width:300px) and (max-width: 1008px){
+  .logo{
+    width:500%
+  }
+}  
+*{
+  padding: 0;
+  margin: 0;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    
+}
+.navbar{
+    display: flex;
+    width: 90%;  
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;  
+    justify-content: left;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+    top: 55%;
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 65px;
+}
+
+.navbar:hover{
+    font-size: 23px;
+    transition: 0.5s;
+}
+h1 {
+    text-shadow: 2px 2px rgb(8, 0, 0);
+  }
+  .baslik{
+    top: 50%;
+  }
+  .yazi{
+    display: flex;
+    width: 89%;  
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;  
+    justify-content: left;
+  }
+  body {
+    background: hsl(220deg, 10%, 97%);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 0, 54);
+    font-family: "Poppins", sans-serif !important;
+  }
+
+.ilk{
+  /*background-image: url("walll.png");*/
+  background-color: rgb(11, 1, 20);
+}
+button {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 19px;
+  background-color: #36024af3;
+  color: #FFFFFF;
+  border: none;
+  font-size: 28px;
+  padding: 16px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+ 
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.indir{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+::-webkit-scrollbar{
+  width: 0.5em;
+}
+::-webkit-scrollbar-track{
+background: black;
+}
+::-webkit-scrollbar-thumb{
+background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb:hover{
+background-color: rgb(74, 5, 114);
+}
+.ortala{
+  text-align: center;
+}
+.genis{
+  padding: 7% 38%;
+}
+.ikinci{
+  /*background-image: url("walll.png");*/
+  background-color: rgb(29, 0, 54);
+}
+.sol{
+  float: left;
+  padding:0 10px 10px 0;
+  padding: 20px 25px;
+  color: white;
+}
+.sag{
+  float: right;
+  padding:0 10px 10px 0;
+  padding: 10px 25px;
+  color: white;
+}
+.yazirenk{
+  padding: 150px 60px;
+color: white;
+font-weight: bold;
+
+}
+.yaziirenk{
+  padding: 230px 25px;
+  color: white;
+  font-weight: bold;
+}
+.footer{
+  background-color: rgb(11, 1, 20);
+  padding: 20px;
+  text-decoration:underline; 
+}
+.sol2{
+  float: left;
+  padding:0 10px 10px 0;
+  padding: 0px 25px;
+  color: white;
+}
+.yazirenk2{
+color: white;
+font-weight: bold;
+
+}
