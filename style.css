@@ -187,3 +187,8 @@ font-weight: bold;
   cursor: pointer;
   margin-top: 15px;
 }
+.button2{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
